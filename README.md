@@ -52,3 +52,20 @@ export default tseslint.config({
   },
 })
 ```
+## Example prompt
+1.
+```
+https://www.figma.com/design/86ljHjpnEjb6wdWFaUCfS7/-%EA%B0%80%EC%9D%B4%EB%93%9C--%EB%82%B4%EB%B6%80%EB%AA%B0-%EA%B5%AC%EC%B6%95-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=75-2293&m=dev
+
+---
+figma mcp를 이용해서 화면을 읽고, src/components/alert-config.tsx 파일을 만들고, 컴포넌트를 만들어줘.
+컴포넌트는 app.tsx 화면에 출력 해 줘
+```
+
+2.
+```
+https://www.figma.com/design/86ljHjpnEjb6wdWFaUCfS7/-%EA%B0%80%EC%9D%B4%EB%93%9C--%EB%82%B4%EB%B6%80%EB%AA%B0-%EA%B5%AC%EC%B6%95-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=52-446&t=BCGm5X5XzxNyTGSl-4
+---
+위 피그마 화면을 mcp로 읽어 들이고, 컴포넌트로 만들고, app.tsx 파일에 추가 해 줘
+```
+
