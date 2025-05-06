@@ -53,6 +53,11 @@ export default tseslint.config({
 })
 ```
 ## Example prompt
+0.
+```
+https://ui.shadcn.com/docs/installation/vite
+문서를 참고 해서 shadcn ui를 설치 하고, 많이 사용하는 주요 컴포넌트들을 되도록이면 많이 설치 해 줘
+```
 1.
 ```
 https://www.figma.com/design/86ljHjpnEjb6wdWFaUCfS7/-%EA%B0%80%EC%9D%B4%EB%93%9C--%EB%82%B4%EB%B6%80%EB%AA%B0-%EA%B5%AC%EC%B6%95-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8?node-id=75-2293&m=dev
