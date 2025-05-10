@@ -1,24 +1,28 @@
 {
-    "inputs": [
-        {
-            "type": "promptString",
-            "id": "FIGMA_API_KEY",
-            "description": "Figma API Key",
-            "password": true
-        }
-    ],
-    "servers": {
-        "Framelink Figma MCP": {
-            "command": "npx",
-            "args": [
-                "-y",
-                "figma-developer-mcp",
-                "--figma-api-key=FIGMA_API_KEY",
-                "--stdio"
-            ],
-            "env": {
-                "FIGMA_API_KEY": "${input:FIGMA_API_KEY}"
-            }
-        }
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "FIGMA_API_KEY",
+      "description": "Figma API Key",
+      "password": true
     }
+  ],
+  "servers": {
+    "Framelink Figma MCP": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "figma-developer-mcp",
+        "--figma-api-key=FIGMA_API_KEY",
+        "--stdio"
+      ],
+      "env": {
+        "FIGMA_API_KEY": "${input:FIGMA_API_KEY}"
+      }
+    },
+    "TalkToFigma": {
+      "command": "bunx",
+      "args": ["cursor-talk-to-figma-mcp@latest"]
+    }
+  }
 }
